@@ -31,7 +31,7 @@
     <Activity name="Activity4">
       <Transition name="Transition9" to="End1" />
     </Activity>
-    <Activity name="Activity569">
+    <Activity name="Activity569_r">
       <Database connection="Data Source=.\SqlExpress01;Initial Catalog=Car-Insurance;Trusted_Connection=True" type="MsSql">
         <SelectList command="select * from Thefts" return="thefts" multi="True" expando="True" />
       </Database>
