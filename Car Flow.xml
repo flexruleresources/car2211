@@ -26,12 +26,12 @@
     </Activity>
     <Decision name="Decision1">
       <Transition name="Transition6" to="Activity4" condition="!isValid" />
-      <Transition name="Transition10" to="Activity569" condition="isValid" />
+      <Transition name="Transition10" to="Activity56_i" condition="isValid" />
     </Decision>
     <Activity name="Activity4">
       <Transition name="Transition9" to="End1" />
     </Activity>
-    <Activity name="Activity569">
+    <Activity name="Activity56_i">
       <Database connection="Data Source=.\SqlExpress01;Initial Catalog=Car-Insurance;Trusted_Connection=True" type="MsSql">
         <SelectList command="select * from Thefts" return="thefts" multi="True" expando="True" />
       </Database>
