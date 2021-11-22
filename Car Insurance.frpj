@@ -1,9 +1,8 @@
 <Designer>
   <Project>
     <Name>Car Insurance</Name>
-    <Path>C:\Users\Subhashi\Downloads\Car-Insurance</Path>
-    <Description>
-    </Description>
+    <Path>C:\Users\Subhashi\Documents\FlexRule\Designer\9.0.524\Car Insurance</Path>
+    <Description></Description>
   </Project>
   <References>
     <Add assembly="bin\Car.Library.dll" />
@@ -37,7 +36,7 @@
     </Builders>
   </ProjectProviders>
   <Debugger>
-    <Runtime path="C:\Users\Subhashi\Documents\.flexrule\9.0.4" />
+    <Runtime path="C:\Users\Subhashi\Documents\.flexrule\9.0.127" />
     <License path="C:\Users\Subhashi\Documents\.flexrule\flexrule.license.lic" />
   </Debugger>
   <TreeDocument>
